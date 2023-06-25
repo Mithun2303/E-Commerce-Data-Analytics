@@ -6,7 +6,7 @@ from sqlalchemy import create_engine
 
 DBNAME="mini_project"
 
-engine=create_engine("postgresql://postgres:mithun2303@localhost/mini_project")
+engine=create_engine("postgresql://postgres:123456789@localhost/mini_project")
 class SessionClass(object):
     def __init__(self):
         Session=sessionmaker(bind=engine)
