@@ -2,7 +2,7 @@
 
 You can clone the project using 
 ```
-git clone git@github.com:Mithun2303/E-Commerce-Data-Analytics.git
+git clone https://github.com/Mithun2303/E-Commerce-Data-Analytics.git
 ```
 
 ## This project works on python 3.10
@@ -36,7 +36,7 @@ pip install -r requirements.txt
 
 ## Add the dataset file in your database using
 ```
-psql -d [databasename] -U [username] -f [file.sql]
+psql -d [databasename] -U [username] -f [schema.sql]
 ```
 
 ## Start the server using uvicorn
